@@ -1,8 +1,7 @@
-@import "base";
-@import "header";
-@import "banner";
-@import "aboutUs";
-@import "form";
-@import "footer";
-@import "tienda";
-@import "nosotros";
+// BASES
+@import "./base/base";
+@import "./base/header";
+@import "./base/footer";
+
+//PAGINAS
+@import "./paginas/index";
