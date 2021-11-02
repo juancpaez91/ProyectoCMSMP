@@ -18,6 +18,7 @@
 }
 .banner__content{
     padding-left: 60px;
+    background:  #e2c5df;
     width: 35%;
 }
 .banner__img{
@@ -25,25 +26,5 @@
     padding: 20px;
     width: 100%;
     height: 85%;
-    border-radius: 50%;
 }
 
-.circulo-1{
-    background: rgb(255, 221, 128);
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    position: relative;
-    left: -90px;
-    top: 20px;
-}
-
-.circulo-2{
-    background: rgb(0, 225, 255);
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    position: relative;
-    bottom: -1%;
-    left: 0%;
-}

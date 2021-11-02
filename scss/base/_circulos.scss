@@ -1,0 +1,72 @@
+.circulo-1{
+    background: rgb(255, 221, 128);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: relative;
+    left: -90px;
+    top: 20px;
+}
+
+.circulo-2{
+    background: rgb(0, 225, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: relative;
+    bottom: -1%;
+    left: 0%;
+}
+
+.circulo-3{
+    display: inline-block;
+    background: rgba(121, 229, 243, 0.39);
+    width: 200px;
+    height: 200px;
+    border-radius: 100% 100% 0 0 ;
+    position: relative;
+    top: 120px;
+    right: -290px;
+    z-index: -2;
+}
+
+.circulo-4{
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    position: relative;
+    left: -10%;
+    bottom: 150px;
+}
+
+.circulo-5{
+    display: inline-block;
+    background: rgb(0, 152, 172);
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 100% 0;
+    position: relative;
+    top: 155.5px;
+    left: 0%;
+    z-index: 2;
+}
+
+.circulo-6{
+    background: rgb(0, 152, 172);
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 100% 0;
+    position: relative;
+    top: 150px;
+}
+
+.circulo-7{
+    background: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 100% 0 0 0;
+    position: relative;
+    left: 84.1%;
+    bottom: 150px;
+}
