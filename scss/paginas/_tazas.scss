@@ -3,13 +3,14 @@
     font-size: 1.3em;
     text-decoration: none;
     color: black;
-    margin-left: 10%;
+    margin-left: 10vw;
     &:visited{
         color: black;
     }
     &:hover{
         opacity: 0.8;
     }
+
 }
 #tarjetaTaza{
     display: flex;

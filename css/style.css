@@ -54,16 +54,6 @@ footer img {
   border-radius: 50%;
 }
 
-.footer {
-  background: #000;
-  padding: 10px 50px;
-  color: white;
-  margin-top: 10px; }
-
-.instagram-ico {
-  background: #f80000;
-  color: white; }
-
 .circulo-1 {
   background: #ffdd80;
   width: 60px;
@@ -71,7 +61,8 @@ footer img {
   border-radius: 100%;
   position: relative;
   left: -90px;
-  top: 20px; }
+  top: 20px;
+}
 
 .circulo-2 {
   background: #00e1ff;
@@ -80,7 +71,8 @@ footer img {
   border-radius: 100%;
   position: relative;
   bottom: -1%;
-  left: 0%; }
+  left: 0%;
+}
 
 .circulo-3 {
   display: inline-block;
@@ -91,7 +83,8 @@ footer img {
   position: relative;
   top: 120px;
   right: -290px;
-  z-index: -2; }
+  z-index: -2;
+}
 
 .circulo-4 {
   background: white;
@@ -100,7 +93,8 @@ footer img {
   border-radius: 150px;
   position: relative;
   left: -10%;
-  bottom: 150px; }
+  bottom: 150px;
+}
 
 .circulo-5 {
   display: inline-block;
@@ -111,7 +105,8 @@ footer img {
   position: relative;
   top: 155.5px;
   left: 0%;
-  z-index: 2; }
+  z-index: 2;
+}
 
 .circulo-6 {
   background: #0098ac;
@@ -119,7 +114,8 @@ footer img {
   height: 150px;
   border-radius: 0 0 100% 0;
   position: relative;
-  top: 150px; }
+  top: 150px;
+}
 
 .circulo-7 {
   background: white;
@@ -128,7 +124,8 @@ footer img {
   border-radius: 100% 0 0 0;
   position: relative;
   left: 84.1%;
-  bottom: 150px; }
+  bottom: 150px;
+}
 
 .banner {
   width: 100%;
@@ -152,9 +149,8 @@ footer img {
 
 .banner__content {
   padding-left: 60px;
-  width: 35%;
   background: #e2c5df;
-  width: 35%; 
+  width: 35%;
 }
 
 .banner__img {
@@ -162,28 +158,6 @@ footer img {
   padding: 20px;
   width: 100%;
   height: 85%;
-  border-radius: 50%;
-}
-
-.circulo-1 {
-  background: #ffdd80;
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  position: relative;
-  left: -90px;
-  top: 20px;
-}
-
-.circulo-2 {
-  background: #00e1ff;
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  position: relative;
-  bottom: -1%;
-  left: 0%;
-  height: 85%; 
 }
 
 .about_us {
@@ -246,17 +220,21 @@ h2 {
   padding: 10px;
   width: 100%;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 .imagen-galery {
   width: 20%;
-  padding: 0; }
+  padding: 0;
+}
 
 .btn-slider {
-  width: 30px; }
+  width: 30px;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 input {
   width: 50%;
@@ -280,11 +258,18 @@ form {
   height: fit-content;
 }
 
+#btnSliderA, #btnSliderB {
+  height: 10vh;
+  margin: auto;
+  width: 30px;
+  background-color: rebeccapurple;
+}
+
 #volver {
   font-size: 1.3em;
   text-decoration: none;
   color: black;
-  margin-left: 10%;
+  margin-left: 10vw;
 }
 #volver:visited {
   color: black;
@@ -365,17 +350,4 @@ form {
   transition: all ease 500ms;
 }
 
-/*# sourceMappingURL=styles.css.map */
-.organizacion__text {
-  padding-left: 100px;
-  padding-right: 200px;
-  padding-top: 150px;
-  font-size: 1.4rem; }
-
-.objetivos__text {
-  padding: 100px;
-  font-size: 1.4rem; }
-
-.objetivos__item {
-  padding-right: 50px;
-  padding-left: 50px; }
+/*# sourceMappingURL=style.css.map */

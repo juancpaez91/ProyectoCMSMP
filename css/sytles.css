@@ -1,9 +1,10 @@
 /* Error: expected "{".
- *    ,
- * 11 | @import "./paginas/tazas";
- *    |                          ^
- *    '
- *   scss\main.scss 11:26  root stylesheet */
+ *   ,
+ * 6 | @import "../partials/tienda";
+ *   |                             ^
+ *   '
+ *   scss\paginas\_index.scss 6:29  @import
+ *   scss\main.scss 9:9             root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 11 \2502  @import "./paginas/tazas";\d\a    \2502                           ^\a    \2575 \a   scss\\main.scss 11:26  root stylesheet';
+  content: 'Error: expected "{".\a   \2577 \a 6 \2502  @import "../partials/tienda";\d\a   \2502                              ^\a   \2575 \a   scss\\paginas\\_index.scss 6:29  @import\a   scss\\main.scss 9:9             root stylesheet';
 }
