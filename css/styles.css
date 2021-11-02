@@ -54,6 +54,82 @@ footer img {
   border-radius: 50%;
 }
 
+.footer {
+  background: #000;
+  padding: 10px 50px;
+  color: white;
+  margin-top: 10px; }
+
+.instagram-ico {
+  background: #f80000;
+  color: white; }
+
+.circulo-1 {
+  background: #ffdd80;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: relative;
+  left: -90px;
+  top: 20px; }
+
+.circulo-2 {
+  background: #00e1ff;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: relative;
+  bottom: -1%;
+  left: 0%; }
+
+.circulo-3 {
+  display: inline-block;
+  background: rgba(121, 229, 243, 0.39);
+  width: 200px;
+  height: 200px;
+  border-radius: 100% 100% 0 0;
+  position: relative;
+  top: 120px;
+  right: -290px;
+  z-index: -2; }
+
+.circulo-4 {
+  background: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  position: relative;
+  left: -10%;
+  bottom: 150px; }
+
+.circulo-5 {
+  display: inline-block;
+  background: #0098ac;
+  width: 150px;
+  height: 150px;
+  border-radius: 0 0 100% 0;
+  position: relative;
+  top: 155.5px;
+  left: 0%;
+  z-index: 2; }
+
+.circulo-6 {
+  background: #0098ac;
+  width: 150px;
+  height: 150px;
+  border-radius: 0 0 100% 0;
+  position: relative;
+  top: 150px; }
+
+.circulo-7 {
+  background: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 100% 0 0 0;
+  position: relative;
+  left: 84.1%;
+  bottom: 150px; }
+
 .banner {
   width: 100%;
   margin: 0px;
@@ -76,13 +152,19 @@ footer img {
 
 .banner__content {
   padding-left: 60px;
+<<<<<<< HEAD
   width: 35%;
 }
+=======
+  background: #e2c5df;
+  width: 35%; }
+>>>>>>> 211775766623fff68e8fe9bb69d3e2151f1b2435
 
 .banner__img {
   z-index: -2;
   padding: 20px;
   width: 100%;
+<<<<<<< HEAD
   height: 85%;
   border-radius: 50%;
 }
@@ -106,6 +188,9 @@ footer img {
   bottom: -1%;
   left: 0%;
 }
+=======
+  height: 85%; }
+>>>>>>> 211775766623fff68e8fe9bb69d3e2151f1b2435
 
 .about_us {
   padding: 0px;
@@ -161,6 +246,24 @@ h2 {
   color: #494949;
 }
 
+.tazas {
+  background: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+.imagen-galery {
+  width: 20%;
+  padding: 0; }
+
+.btn-slider {
+  width: 30px; }
+
+a {
+  text-decoration: none; }
+
 input {
   width: 50%;
   height: 3rem;
@@ -183,6 +286,7 @@ form {
   height: fit-content;
 }
 
+<<<<<<< HEAD
 #volver {
   font-size: 1.3em;
   text-decoration: none;
@@ -269,3 +373,18 @@ form {
 }
 
 /*# sourceMappingURL=styles.css.map */
+=======
+.organizacion__text {
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-top: 150px;
+  font-size: 1.4rem; }
+
+.objetivos__text {
+  padding: 100px;
+  font-size: 1.4rem; }
+
+.objetivos__item {
+  padding-right: 50px;
+  padding-left: 50px; }
+>>>>>>> 211775766623fff68e8fe9bb69d3e2151f1b2435
