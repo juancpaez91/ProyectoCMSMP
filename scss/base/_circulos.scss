@@ -36,7 +36,7 @@
     height: 200px;
     border-radius: 150px;
     position: relative;
-    left: -10%;
+    left: 50%;
     bottom: 150px;
 }
 
@@ -69,4 +69,13 @@
     position: relative;
     left: 84.1%;
     bottom: 150px;
+}
+
+.circulo-8{
+    background: rgb(0, 152, 172);
+    width: 100px;
+    height: 100px;
+    border-radius: 0 100% 0 0;
+    position: relative;
+    top:0px;
 }

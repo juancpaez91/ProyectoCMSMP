@@ -59,7 +59,7 @@ body {
   height: 200px;
   border-radius: 150px;
   position: relative;
-  left: -10%;
+  left: 50%;
   bottom: 150px; }
 
 .circulo-5 {
@@ -89,6 +89,14 @@ body {
   position: relative;
   left: 84.1%;
   bottom: 150px; }
+
+.circulo-8 {
+  background: #0098ac;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 100% 0 0;
+  position: relative;
+  top: 0px; }
 
 .banner {
   width: 100%;
@@ -213,3 +221,26 @@ form {
 .objetivos__item {
   padding-right: 50px;
   padding-left: 50px; }
+
+ol > li:before {
+  font-weight: bold; }
+
+.nosotros__content {
+  width: 40%;
+  padding: 0; }
+
+.nosotros__text {
+  width: 60%;
+  padding-top: 90px;
+  padding-left: 10px;
+  padding-right: 50px;
+  font-size: 1.5rem; }
+
+.resaltado {
+  font-weight: bolder; }
+
+.color-gris {
+  color: #494949; }
+
+.nosotros__img {
+  width: 100%; }
