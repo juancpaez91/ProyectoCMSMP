@@ -1,19 +1,40 @@
 input{
     width: 50%;
-    height: 3rem;
+    height: 2rem;
     border: 1px solid grey;
     border-radius: 5px;
     margin: 5px;
+    padding: 10px;
+    &:focus{
+        background-color: rgba(102, 51, 153, 0.301);
+    }
 }
 
 form{
     text-align: center;
     padding-top: 20px;
 }
-.btn-form{
-    width: 50%;
+textarea{
+    width:50%;
+    border-radius: 10px;
+    padding: 10px;
+    &:focus{
+        background-color: rgba(102, 51, 153, 0.301);
+    }
 }
 
+#botonEnviar{
+    background: purple;
+    border: 0px;
+    border-radius: 10px;
+    padding: 2vh 1vw;
+    width: 40%;
+    &:hover{
+        opacity: 0.8;
+        transform: scale(0.98);
+        transition: all ease 500ms;
+    }
+}
 .formulario{
     width: 50%;
     height: fit-content;
