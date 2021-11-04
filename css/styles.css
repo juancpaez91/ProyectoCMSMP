@@ -5,7 +5,7 @@ body {
 }
 
 .funte {
-  font-family: "Inter", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
 }
 
@@ -227,13 +227,19 @@ h2 {
   width: 20%;
   padding: 0;
 }
-
-.btn-slider {
-  width: 30px;
+.imagen-galery:hover {
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
+}
+
+#btnSliderA, #btnSliderB {
+  height: 10vh;
+  margin: auto;
+  width: 30px;
+  background-color: rebeccapurple;
 }
 
 input {
@@ -280,13 +286,6 @@ textarea:focus {
   height: fit-content;
 }
 
-#btnSliderA, #btnSliderB {
-  height: 10vh;
-  margin: auto;
-  width: 30px;
-  background-color: rebeccapurple;
-}
-
 #volver {
   font-size: 1.3em;
   text-decoration: none;
@@ -330,8 +329,58 @@ textarea:focus {
 #tarjetaTaza .tarjetaderecha .precioproducto {
   width: 100%;
 }
-#tarjetaTaza .tarjetaderecha #fueraStock {
-  display: none;
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 192, 203, 0.247);
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock span {
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock span:hover {
+  transform: scale(0.8);
+  transition: all ease 500ms;
+  opacity: 0.9;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div {
+  position: relative;
+  top: 30%;
+  right: auto;
+  border-radius: 10px;
+  width: 50%;
+  height: 30%;
+  margin: auto;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div p {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 1vh;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div #firma {
+  text-align: right;
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div img {
+  width: 50px;
 }
 #tarjetaTaza .tarjetaderecha .cantidad {
   width: 100%;
@@ -365,6 +414,7 @@ textarea:focus {
   margin: 2vh 0vw;
   width: 156px;
   border: 0px;
+  height: auto;
 }
 #tarjetaTaza .tarjetaderecha #botonPagar:hover {
   background-color: #a56da5;
