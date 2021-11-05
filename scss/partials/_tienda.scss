@@ -10,11 +10,18 @@
 .imagen-galery{
     width: 20%;
     padding: 0;
-}
-.btn-slider{
-   width: 30px;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 a{
     text-decoration: none;
+}
+
+#btnSliderA , #btnSliderB{
+    height: 10vh ;
+    margin: auto ;
+    width:30px ;
+    background-color: rebeccapurple ;
 }

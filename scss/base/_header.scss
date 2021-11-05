@@ -2,4 +2,22 @@
     padding-left: 120px;
     padding-right: 120px;
 }
-
+.btn-donation {
+    background-color: #15788f !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 1vh 2vw !important;
+    box-shadow: inset 5px -1px 50px -8px #ffffff;
+    border: 0px !important;
+    &:hover{
+        background-color: #1896b3;
+        transform: scale(1.2);
+        transition: all ease 500ms;
+    }
+}
+header ul{
+    @media screen and (max-width:990px) {
+        width: 120px;
+    }
+    
+}
