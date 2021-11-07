@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     background: rgb(243, 243, 243);
+    height: 100vh;
 }
 
 .funte{
@@ -12,4 +13,8 @@ body{
 }
 .btn-donation{
     background: rgb(152, 228, 251);
+}
+
+html{
+    min-height: 100%;
 }

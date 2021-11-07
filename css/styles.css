@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   background: #f3f3f3;
+  height: 100vh;
 }
 
 .funte {
@@ -11,6 +12,10 @@ body {
 
 .btn-donation {
   background: #98e4fb;
+}
+
+html {
+  min-height: 100%;
 }
 
 .menu {
@@ -53,12 +58,23 @@ body {
 footer img {
   border-radius: 50%;
 }
+@media only screen and (max-width: 650px) {
+  footer img {
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 #footerID {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+@media only screen and (max-width: 650px) {
+  #footerID {
+    flex-direction: column;
+  }
 }
 #footerID div i {
   padding: 10px;
@@ -360,6 +376,10 @@ ol > li:before {
   width: 100%;
 }
 
+#wrapper {
+  min-height: calc(100% - 2rem);
+}
+
 #volver {
   font-size: 1.3em;
   text-decoration: none;
@@ -380,6 +400,11 @@ ol > li:before {
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza {
+    flex-direction: column;
+  }
+}
 #tarjetaTaza .tarjetaizquierda {
   display: flex;
   flex-direction: column;
@@ -394,6 +419,11 @@ ol > li:before {
 #tarjetaTaza .tarjetaizquierda img {
   width: 33vw;
 }
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza .tarjetaizquierda img {
+    width: 300px;
+  }
+}
 #tarjetaTaza .tarjetaderecha {
   display: flex;
   flex-direction: column;
@@ -402,6 +432,11 @@ ol > li:before {
 }
 #tarjetaTaza .tarjetaderecha .precioproducto {
   width: 100%;
+}
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza .tarjetaderecha .precioproducto {
+    text-align: center;
+  }
 }
 #tarjetaTaza .tarjetaderecha #contenedorfuerastock {
   position: absolute;
@@ -459,6 +494,11 @@ ol > li:before {
 #tarjetaTaza .tarjetaderecha .cantidad {
   width: 100%;
 }
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza .tarjetaderecha .cantidad {
+    text-align: center;
+  }
+}
 #tarjetaTaza .tarjetaderecha #botonAgregar, #tarjetaTaza .tarjetaderecha #botonSacar {
   color: white;
   border-radius: 10px;
@@ -493,6 +533,101 @@ ol > li:before {
 #tarjetaTaza .tarjetaderecha #botonPagar:hover {
   background-color: #a56da5;
   transform: scale(0.9);
+  transition: all ease 500ms;
+}
+
+#donaciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F9FAFC;
+  width: 100%;
+}
+#donaciones #presentacion .tituloDonacion {
+  font-size: 3em;
+  color: #615e5e;
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+  line-height: 53px;
+}
+#donaciones #presentacion .subtituloDonacion {
+  font-size: 1em;
+  color: #333333;
+  text-align: left;
+  width: 300px;
+}
+#donaciones #presentacion .txtDonacion {
+  color: black;
+  font-size: 1em;
+  text-align: left;
+  width: 300px;
+}
+#donaciones #contenedorCuentas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 9vh 4vw;
+  box-shadow: 0px 0px 15px 5px #ffffff;
+}
+#donaciones #contenedorCuentas #banco {
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  margin: 1vh 2vw;
+}
+#donaciones #contenedorCuentas #contenedorBotones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnPayPal {
+  width: 200px;
+  background-color: #19195f;
+  color: white;
+  font-weight: bold;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 28px -4px #000000;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnPayPal:hover {
+  opacity: 0.8;
+  transform: scale(0.95);
+  transition: all ease 500ms;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnMercadoP {
+  width: 200px;
+  background-color: #2095b2;
+  color: white;
+  font-weight: bold;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 28px -4px #000000;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnMercadoP:hover {
+  opacity: 0.8;
+  transform: scale(0.95);
+  transition: all ease 500ms;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnCoffee {
+  width: 200px;
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  box-shadow: 5px 5px 28px -4px #000000;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnCoffee:hover {
+  opacity: 0.8;
+  transform: scale(0.95);
   transition: all ease 500ms;
 }
 

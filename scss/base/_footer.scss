@@ -12,6 +12,10 @@
 
 footer img{
     border-radius: 50%;
+    @media only screen and(max-width:650px){
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 #footerID{
@@ -19,6 +23,9 @@ footer img{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    @media only screen and(max-width:650px){
+        flex-direction: column;
+    }
     div{
         i{
             padding: 10px;
