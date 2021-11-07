@@ -14,3 +14,7 @@
     padding-right: 50px;
     padding-left: 50px;
 }
+
+ol > li:before{
+    font-weight: bold;
+}
