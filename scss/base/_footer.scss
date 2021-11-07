@@ -13,3 +13,23 @@
 footer img{
     border-radius: 50%;
 }
+
+#footerID{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    div{
+        i{
+            padding: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            &:visited{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
