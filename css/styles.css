@@ -110,14 +110,9 @@ footer img {
   height: 200px;
   border-radius: 150px;
   position: relative;
-<<<<<<< HEAD
   left: 50%;
-  bottom: 150px; }
-=======
-  left: -10%;
   bottom: 150px;
 }
->>>>>>> 73f217d3a4bb911ae7d19b8db411f88a5a7f7f79
 
 .circulo-5 {
   display: inline-block;
@@ -156,7 +151,8 @@ footer img {
   height: 100px;
   border-radius: 0 100% 0 0;
   position: relative;
-  top: 0px; }
+  top: 0px;
+}
 
 .banner {
   width: 100%;
@@ -315,47 +311,53 @@ textarea:focus {
 
 .formulario {
   width: 50%;
-<<<<<<< HEAD
-  height: fit-content; }
+  height: fit-content;
+}
 
 .organizacion__text {
   padding-left: 100px;
   padding-right: 200px;
   padding-top: 150px;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+}
 
 .objetivos__text {
   padding: 100px;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+}
 
 .objetivos__item {
   padding-right: 50px;
-  padding-left: 50px; }
+  padding-left: 50px;
+}
 
 ol > li:before {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .nosotros__content {
   width: 40%;
-  padding: 0; }
+  padding: 0;
+}
 
 .nosotros__text {
   width: 60%;
   padding-top: 90px;
   padding-left: 10px;
   padding-right: 50px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 .resaltado {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 .color-gris {
-  color: #494949; }
+  color: #494949;
+}
 
 .nosotros__img {
-  width: 100%; }
-=======
-  height: fit-content;
+  width: 100%;
 }
 
 #volver {
@@ -495,4 +497,3 @@ ol > li:before {
 }
 
 /*# sourceMappingURL=styles.css.map */
->>>>>>> 73f217d3a4bb911ae7d19b8db411f88a5a7f7f79
