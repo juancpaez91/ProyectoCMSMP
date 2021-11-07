@@ -543,7 +543,13 @@ ol > li:before {
   align-items: center;
   justify-content: space-evenly;
   background-color: #F9FAFC;
+  height: 70vh;
   width: 100%;
+}
+@media only screen and (max-width: 800px) {
+  #donaciones {
+    height: 100vh;
+  }
 }
 #donaciones #presentacion .tituloDonacion {
   font-size: 3em;

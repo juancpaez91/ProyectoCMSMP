@@ -5,8 +5,11 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #F9FAFC;
-    // height: 70vh;
+    height: 70vh;
     width: 100%;
+    @media only screen and (max-width:800px){
+        height: 100vh;
+    }
     #presentacion{
         .tituloDonacion{
             font-size: 3em;
