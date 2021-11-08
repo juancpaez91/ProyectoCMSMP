@@ -1,7 +1,9 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: #f3f3f3; }
+  background: #f3f3f3;
+  height: 100vh;
+}
 
 .funte {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,6 +11,10 @@ body {
 
 .btn-donation {
   background: #98e4fb; }
+
+html {
+  min-height: 100%;
+}
 
 .menu {
   padding-left: 120px;
@@ -41,7 +47,37 @@ body {
   color: white; }
 
 footer img {
-  border-radius: 50%; }
+  border-radius: 50%;
+}
+@media only screen and (max-width: 650px) {
+  footer img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+#footerID {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 650px) {
+  #footerID {
+    flex-direction: column;
+  }
+}
+#footerID div i {
+  padding: 10px;
+}
+#footerID div a {
+  text-decoration: none;
+  color: white;
+}
+#footerID div a:visited {
+  text-decoration: none;
+  color: white;
+}
 
 .circulo-1 {
   background: #ffdd80;
@@ -79,7 +115,8 @@ footer img {
   border-radius: 150px;
   position: relative;
   left: 50%;
-  bottom: 150px; }
+  bottom: 150px;
+}
 
 .circulo-5 {
   display: inline-block;
@@ -115,7 +152,8 @@ footer img {
   height: 100px;
   border-radius: 0 100% 0 0;
   position: relative;
-  top: 0px; }
+  top: 0px;
+}
 
 .banner {
   width: 100%;
@@ -240,52 +278,69 @@ textarea {
   border: 0px;
   border-radius: 10px;
   padding: 2vh 1vw;
-  width: 40%; }
-  #botonEnviar:hover {
-    opacity: 0.8;
-    transform: scale(0.98);
-    transition: all ease 500ms; }
+  width: 40%;
+  cursor: pointer;
+}
+#botonEnviar:hover {
+  opacity: 0.8;
+  transform: scale(0.98);
+  transition: all ease 500ms;
+}
 
 .formulario {
   width: 50%;
-  height: fit-content; }
+  height: fit-content;
+}
 
 .organizacion__text {
   padding-left: 100px;
   padding-right: 200px;
   padding-top: 150px;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+}
 
 .objetivos__text {
   padding: 100px;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+}
 
 .objetivos__item {
   padding-right: 50px;
-  padding-left: 50px; }
+  padding-left: 50px;
+}
 
 ol > li:before {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .nosotros__content {
   width: 40%;
-  padding: 0; }
+  padding: 0;
+}
 
 .nosotros__text {
   width: 60%;
   padding-top: 90px;
   padding-left: 10px;
   padding-right: 50px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 .resaltado {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 .color-gris {
-  color: #494949; }
+  color: #494949;
+}
 
 .nosotros__img {
-  width: 100%; }
+  width: 100%;
+}
+
+#wrapper {
+  min-height: calc(100% - 2rem);
+}
 
 #volver {
   font-size: 1.3em;
@@ -302,100 +357,243 @@ ol > li:before {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center; }
-  #tarjetaTaza .tarjetaizquierda {
-    display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza {
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center; }
-    #tarjetaTaza .tarjetaizquierda p {
-      font-size: 1.5em;
-      font-weight: bold;
-      text-align: left; }
-    #tarjetaTaza .tarjetaizquierda img {
-      width: 33vw; }
-  #tarjetaTaza .tarjetaderecha {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-    #tarjetaTaza .tarjetaderecha .precioproducto {
-      width: 100%; }
-    #tarjetaTaza .tarjetaderecha #contenedorfuerastock {
-      position: absolute;
-      width: 100vw;
-      height: 100vh;
-      top: 0;
-      left: 0;
-      background-color: rgba(255, 192, 203, 0.247); }
-      #tarjetaTaza .tarjetaderecha #contenedorfuerastock span {
-        background-color: purple;
-        color: white;
-        border-radius: 10px;
-        border: 0px;
-        position: absolute;
-        top: 15px;
-        left: 20px;
-        padding: 5px 10px;
-        cursor: pointer; }
-        #tarjetaTaza .tarjetaderecha #contenedorfuerastock span:hover {
-          transform: scale(0.8);
-          transition: all ease 500ms;
-          opacity: 0.9; }
-      #tarjetaTaza .tarjetaderecha #contenedorfuerastock div {
-        position: relative;
-        top: 30%;
-        right: auto;
-        border-radius: 10px;
-        width: 50%;
-        height: 30%;
-        margin: auto;
-        border: 2px solid black;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; }
-        #tarjetaTaza .tarjetaderecha #contenedorfuerastock div p {
-          font-weight: bold;
-          color: black;
-          text-align: center;
-          margin: 1vh; }
-        #tarjetaTaza .tarjetaderecha #contenedorfuerastock div #firma {
-          text-align: right;
-          font-size: 1.3em;
-          text-decoration: underline; }
-        #tarjetaTaza .tarjetaderecha #contenedorfuerastock div img {
-          width: 50px; }
-    #tarjetaTaza .tarjetaderecha .cantidad {
-      width: 100%; }
-    #tarjetaTaza .tarjetaderecha #botonAgregar, #tarjetaTaza .tarjetaderecha #botonSacar {
-      color: white;
-      border-radius: 10px;
-      background-color: purple;
-      font-weight: bold;
-      padding: 1vh 1vw;
-      border: 0px; }
-      #tarjetaTaza .tarjetaderecha #botonAgregar:hover, #tarjetaTaza .tarjetaderecha #botonSacar:hover {
-        opacity: 0.8; }
-    #tarjetaTaza .tarjetaderecha #botonSacar {
-      padding: 1vh 15px; }
-    #tarjetaTaza .tarjetaderecha .contador {
-      width: 50px;
-      height: 40px;
-      text-align: center;
-      border-radius: 5px;
-      margin: 0px 10px; }
-    #tarjetaTaza .tarjetaderecha #botonPagar {
-      color: white;
-      border-radius: 10px;
-      background-color: purple;
-      font-weight: bold;
-      margin: 2vh 0vw;
-      width: 156px;
-      border: 0px;
-      height: auto; }
-      #tarjetaTaza .tarjetaderecha #botonPagar:hover {
-        background-color: #a56da5;
-        transform: scale(0.9);
-        transition: all ease 500ms; }
+  }
+}
+#tarjetaTaza .tarjetaizquierda {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#tarjetaTaza .tarjetaizquierda p {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+}
+#tarjetaTaza .tarjetaizquierda img {
+  width: 33vw;
+}
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza .tarjetaizquierda img {
+    width: 300px;
+  }
+}
+#tarjetaTaza .tarjetaderecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#tarjetaTaza .tarjetaderecha .precioproducto {
+  width: 100%;
+}
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza .tarjetaderecha .precioproducto {
+    text-align: center;
+  }
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 192, 203, 0.247);
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock span {
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock span:hover {
+  transform: scale(0.8);
+  transition: all ease 500ms;
+  opacity: 0.9;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div {
+  position: relative;
+  top: 30%;
+  right: auto;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div p {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 1vh;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div #firma {
+  text-align: right;
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+#tarjetaTaza .tarjetaderecha #contenedorfuerastock div img {
+  width: 50px;
+}
+#tarjetaTaza .tarjetaderecha .cantidad {
+  width: 100%;
+}
+@media only screen and (max-width: 650px) {
+  #tarjetaTaza .tarjetaderecha .cantidad {
+    text-align: center;
+  }
+}
+#tarjetaTaza .tarjetaderecha #botonAgregar, #tarjetaTaza .tarjetaderecha #botonSacar {
+  color: white;
+  border-radius: 10px;
+  background-color: purple;
+  font-weight: bold;
+  padding: 1vh 1vw;
+  border: 0px;
+}
+#tarjetaTaza .tarjetaderecha #botonAgregar:hover, #tarjetaTaza .tarjetaderecha #botonSacar:hover {
+  opacity: 0.8;
+}
+#tarjetaTaza .tarjetaderecha #botonSacar {
+  padding: 1vh 15px;
+}
+#tarjetaTaza .tarjetaderecha .contador {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+#tarjetaTaza .tarjetaderecha #botonPagar {
+  color: white;
+  border-radius: 10px;
+  background-color: purple;
+  font-weight: bold;
+  margin: 2vh 0vw;
+  width: 156px;
+  border: 0px;
+  height: auto;
+}
+#tarjetaTaza .tarjetaderecha #botonPagar:hover {
+  background-color: #a56da5;
+  transform: scale(0.9);
+  transition: all ease 500ms;
+}
+
+#donaciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F9FAFC;
+  height: 70vh;
+  width: 100%;
+}
+@media only screen and (max-width: 800px) {
+  #donaciones {
+    height: 100vh;
+  }
+}
+#donaciones #presentacion .tituloDonacion {
+  font-size: 3em;
+  color: #615e5e;
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+  line-height: 53px;
+}
+#donaciones #presentacion .subtituloDonacion {
+  font-size: 1em;
+  color: #333333;
+  text-align: left;
+  width: 300px;
+}
+#donaciones #presentacion .txtDonacion {
+  color: black;
+  font-size: 1em;
+  text-align: left;
+  width: 300px;
+}
+#donaciones #contenedorCuentas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 9vh 4vw;
+  box-shadow: 0px 0px 15px 5px #ffffff;
+}
+#donaciones #contenedorCuentas #banco {
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  margin: 1vh 2vw;
+}
+#donaciones #contenedorCuentas #contenedorBotones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnPayPal {
+  width: 200px;
+  background-color: #19195f;
+  color: white;
+  font-weight: bold;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 28px -4px #000000;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnPayPal:hover {
+  opacity: 0.8;
+  transform: scale(0.95);
+  transition: all ease 500ms;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnMercadoP {
+  width: 200px;
+  background-color: #2095b2;
+  color: white;
+  font-weight: bold;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px 28px -4px #000000;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnMercadoP:hover {
+  opacity: 0.8;
+  transform: scale(0.95);
+  transition: all ease 500ms;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnCoffee {
+  width: 200px;
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  box-shadow: 5px 5px 28px -4px #000000;
+}
+#donaciones #contenedorCuentas #contenedorBotones #btnCoffee:hover {
+  opacity: 0.8;
+  transform: scale(0.95);
+  transition: all ease 500ms;
+}
+
+/*# sourceMappingURL=styles.css.map */
