@@ -290,7 +290,7 @@ a {
 }
 
 input {
-  width: 50%;
+  width: 350px;
   height: 2rem;
   border: 1px solid grey;
   border-radius: 5px;
@@ -305,11 +305,18 @@ form {
   text-align: center;
   padding-top: 20px;
 }
+@media only screen and (max-width: 600px) {
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 textarea {
-  width: 50%;
+  width: 350px;
   border-radius: 10px;
   padding: 10px;
+  margin: 5px;
 }
 textarea:focus {
   background-color: rgba(102, 51, 153, 0.301);
@@ -332,6 +339,11 @@ textarea:focus {
 .formulario {
   width: 50%;
   height: fit-content;
+}
+@media only screen and (max-width: 600px) {
+  .formulario {
+    width: 100%;
+  }
 }
 
 .organizacion__text {
