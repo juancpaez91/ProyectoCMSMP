@@ -43,6 +43,10 @@ html {
   }
 }
 
+#fluidNav {
+  justify-content: center !important;
+}
+
 .footer {
   background: #000;
   padding: 10px 50px;
