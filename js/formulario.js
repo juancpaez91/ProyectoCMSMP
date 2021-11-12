@@ -9,6 +9,50 @@ function avisoDeshabilitado(){
     }
 }
 
+botonEnviar.addEventListener("click", enviarNotificacion);
+
+function enviarNotificacion(event) {
+    event.preventDefault();
+
+    var connect, form, nombre, email, mensaje, asunto;
+ 
+    nombre = (document.getElementById('nombre').value).trim();
+    email = (document.getElementById('emailForm').value).trim();
+    mensaje = (document.getElementById('mensajeForm').value).trim();
+    asunto = (document.getElementById('asunto').value).trim();
+
+    form = 'nombre=' + nombre + '&email=' + email + '&mensaje=' + mensaje + "&asunto=" + asunto;
+
+    connect = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+
+     
+    connect.onreadystatechange = function() {
+        if (connect.readyState == 4 && connect.status == 200) {
+            //console.log("response: " + connect.responseText);
+            var response = JSON.parse(connect.responseText);
+            form_container_div = document.querySelector("#form_container");
+            form_success_div = document.querySelector("#form_success");
+            form_fail_div = document.querySelector("#form_fail");
+
+            form_container_div.style.display = "none";
+            if(response.success) {
+                form_success_div.style.display = "block";
+            } else {
+                form_fail_div.style.display = "block";
+            }
+        } else if(connect.readyState != 4) {
+            //Processing the request
+            // btn_send.classList.add('rs-btn-loading');
+            // btn_send.firstChild.data = "";
+            // btn_send.disabled = true;
+        }
+    };
+    connect.open("POST", "./php/form.php", true);
+    connect.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    connect.send(form);
+    // end submit form
+}
+
 //TODO TERMINAR DE VERIFICAR
 function verificar(){
     let email = document.querySelector("#emailForm").value;

@@ -174,20 +174,27 @@
             </div>
         </section>
         <section class="container-fluid" id="contacto">
+          <div id="form_container">  
             <form class="row contacto" action="">
               <h3 class="col-4"> <strong> Contactanos </strong> </h3>
               <div class="col-4 formulario" onmouseover="avisoDeshabilitado()">
-                <input type="text" class="" id="" placeholder="Nombre">
+                <input type="text" class="" id="nombre" placeholder="Nombre">
                 <input onchange="verificar()" type="email" class="" id="emailForm" placeholder="E-mail">
                 <span id="emailinvalido" style="color:red"></span>
-                <input type="text" class=""  placeholder="Asunto">
+                <input type="text" class=""  placeholder="Asunto" id="asunto">
                 <div>
-                  <textarea onkeydown="verificar()" id="mensajeForm" class="" id="" rows="4"  placeholder="Mensaje"></textarea>
+                  <textarea onkeydown="verificar()" id="mensajeForm" class="" rows="4"  placeholder="Mensaje"></textarea>
                 </div>
                 <button id="botonEnviar" class="btn-form btn-primary" type="button">Enviar</button>
                 <p id="botonDeshabilitado"></p>
               </div>
             </form>
+          </div>
+          <div id="form_success" style="display:none">
+            <h1>SUCESS</h1>
+          </div>
+          <div id="form_fail" style="display:none">
+            <h1>FAILED</h1>
           </div>
         </section>
     </main>
