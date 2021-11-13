@@ -346,6 +346,30 @@ textarea:focus {
   }
 }
 
+#form_success, #form_fail {
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  margin: 5vh auto;
+  border-radius: 10px;
+  padding: 3vh 0;
+  display: none;
+}
+#form_success #botonReload, #form_fail #botonReload {
+  padding: 1vh 1vw;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  margin: 1vh auto;
+  border: 0px;
+  border-radius: 10px;
+}
+#form_success #botonReload:hover, #form_fail #botonReload:hover {
+  transform: scale(0.9);
+  transition: all ease 500ms;
+  opacity: 0.8;
+}
+
 .organizacion__text {
   padding-left: 100px;
   padding-right: 200px;

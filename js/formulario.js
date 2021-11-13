@@ -42,9 +42,8 @@ function enviarNotificacion(event) {
             }
         } else if(connect.readyState != 4) {
             //Processing the request
-            // btn_send.classList.add('rs-btn-loading');
-            // btn_send.firstChild.data = "";
-            // btn_send.disabled = true;
+                botonEnviar.innerHTML = '<p>Enviando...</p><i class="fas fa-circle-notch fa-spin"></i>'
+                botonEnviar.disabled = true
         }
     };
     connect.open("POST", "./php/form.php", true);
@@ -67,7 +66,7 @@ function verificar(){
         mail = true;
         document.getElementById("emailinvalido").innerHTML = "";
     }
-    if(mensaje.length < 12){
+    if(mensaje.length < 5){
         txt = false;
     }else{
         txt= true;
@@ -77,3 +76,4 @@ function verificar(){
         botonEnviar.disabled=false;
     }
 }
+

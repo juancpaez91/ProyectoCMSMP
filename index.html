@@ -173,7 +173,7 @@
                 </button>
             </div>
         </section>
-        <section class="container-fluid" id="contacto">
+        <div class="container-fluid" id="contacto">
           <div id="form_container">  
             <form class="row contacto" action="">
               <h3 class="col-4"> <strong> Contactanos </strong> </h3>
@@ -190,12 +190,19 @@
               </div>
             </form>
           </div>
-          <div id="form_success" style="display:none">
-            <h1>SUCESS</h1>
-          </div>
-          <div id="form_fail" style="display:none">
-            <h1>FAILED</h1>
-          </div>
+          <div id="form_success" >
+            <h1>¡Su mensaje ha sido enviado con éxito!</h1>
+            <h3>Nos pondremos en contacto contigo a la brevedad</h3>
+          <p id="firma" >Corporación Mujer Sigue Mis Pasos </p>
+          <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg" alt="logo">
+        </div>
+          <div id="form_fail" >
+            <h1>Parece que hubo un problema...</h1>
+            <h3>Intenta enviando nuevamente el formulario</h3>
+            <button id="botonReload" onClick="RecargarForm()"> Recargar formulario</button>
+            <p id="firma" >Corporación Mujer Sigue Mis Pasos </p>
+          <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg" alt="logo">
+        </div>
         </section>
     </main>
     <footer id="footerID" class="container-fluid footer">
