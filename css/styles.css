@@ -704,7 +704,7 @@ ol > li:before {
   opacity: 0.8;
 }
 #tarjetaTaza .tarjetaderecha #botonSacar {
-  padding: 1vh 15px;
+  font-size: 17px;
 }
 #tarjetaTaza .tarjetaderecha .contador {
   width: 50px;
