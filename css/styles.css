@@ -371,15 +371,66 @@ textarea:focus {
 }
 
 .organizacion__text {
-  padding-left: 100px;
-  padding-right: 200px;
-  padding-top: 150px;
-  font-size: 1.4rem;
+  padding-left: 5%;
+  padding-right: 7%;
+  font-size: 1em;
+}
+@media only screen and (min-width: 940px) and (max-width: 1020px) {
+  .organizacion__text {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .organizacion__text {
+    width: 90%;
+    margin-top: 2vh;
+  }
+}
+.organizacion__text h2 {
+  font-weight: bold;
+  color: #494949;
+}
+
+@media only screen and (max-width: 1180px) {
+  .circulo-6, .circulo-7 {
+    display: none;
+  }
 }
 
 .objetivos__text {
-  padding: 100px;
-  font-size: 1.4rem;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  width: 81%;
+  margin: 6vh auto;
+  text-align: justify;
+}
+@media only screen and (max-width: 1020px) {
+  .objetivos__text {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+  }
+}
+.objetivos__text h3 {
+  font-weight: 600;
+}
+@media only screen and (max-width: 1020px) {
+  .objetivos__text .objetivos_generales {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .objetivos__text .objetivos_especificos {
+    width: 90%;
+    margin-top: 2vh;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .objetivos__text .list-group {
+    display: block;
+  }
 }
 
 .objetivos__item {
@@ -389,6 +440,33 @@ textarea:focus {
 
 ol > li:before {
   font-weight: bold;
+}
+
+.organizacion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 81vh;
+  background-color: white;
+  margin-bottom: 8%;
+}
+@media only screen and (max-width: 940px) {
+  .organizacion {
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .organizacion__content {
+    width: 70%;
+  }
+}
+
+.objetivos {
+  background: white;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .nosotros__content {
