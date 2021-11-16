@@ -4,3 +4,25 @@
 //Tienda == Slider
 @import "../partials/tienda";
 @import "../partials/form";
+
+//Flecha para volver al inicio
+#up{
+    position: relative;
+    left: 95%;
+    bottom: 11%;
+    background-color: #ffffff7a;
+    width: 43px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    @media only screen and (max-width: 700px){
+        display: none;
+    }
+    i{
+        padding:1vh 1vw;
+        color: rgb(59, 57, 57);
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}

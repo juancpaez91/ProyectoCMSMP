@@ -370,6 +370,29 @@ textarea:focus {
   opacity: 0.8;
 }
 
+#up {
+  position: relative;
+  left: 95%;
+  bottom: 11%;
+  background-color: #ffffff7a;
+  width: 43px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 700px) {
+  #up {
+    display: none;
+  }
+}
+#up i {
+  padding: 1vh 1vw;
+  color: #3b3939;
+}
+#up i:hover {
+  opacity: 0.8;
+}
+
 .organizacion__text {
   padding-left: 5%;
   padding-right: 7%;
