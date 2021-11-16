@@ -1,9 +1,174 @@
-@media all and (max-width: 576px ) {
+@media all and (max-width: 579px ) {
+
+    .banner__content{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .banner__text{
+        margin: 0%;
+        padding-top: 500px;
+        padding: 2%;
+        width: 100%;
+    } 
+    .about__text{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .circulo-1{
+        position: relative;
+        left: 0px;
+        top: -20px;
+    }
+    .circulo-2{
+        position: relative;
+        bottom: -1%;
+        left: 400px;    
+    }
+    .circulo-3{
+        display: none;
+    }
+    .circulo-4{
+        display: none;
+    }
+    .circulo-5{
+        display: none;
+    }
+}
+@media all and (min-width: 580px) and (max-width: 768px){
+
+    .banner__content{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    } 
+    .banner__text{
+        padding-top: 50px;
+        margin: 0%;
+        padding: 2%;
+        width: 100%;
+    }
+    .about__text{
+        width: 100%;
+        padding: 30px;
+    }
+    .circulo-1{
+        position: relative;
+        left: 0px;
+        top: -20px;
+    }
+    .circulo-2{
+        position: relative;
+        bottom: -2%;
+        left: 80%;    
+    }
+    .circulo-3{
+        display: none;
+    }
+    .circulo-4{
+        display: none;
+    }
+    .circulo-5{
+        display: none;
+    }
 
 }
-@media all and (min-width: 577px) and (max-width: 991px){
+@media all and (min-width: 769px) and (max-width: 992px){
+    .banner__content{
+        width: 45%;
+        margin: 0%;
+        padding: 0%;
+    } 
+    .banner__text{
+        width: 55%;
+        padding-top: 50px;
+        margin: 0%;
+        padding: 2%;
+    }
+
+    .about_us{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .about__text{
+        padding: 30px;
+        font-size: .8rem;
+        width: 100%;
+    }
+    .about__img{
+        width: 100%;
+    }
+    
+    .circulo-1{
+        position: relative;
+        left: -15px;
+        top: -20px;
+    }
+    .circulo-2{
+        position: relative;
+        bottom: 5%;
+        left: 80%;    
+    }
+    .circulo-3{
+        display: none;
+    }
+    .circulo-4{
+        display: none;
+    }
+    .circulo-5{
+        display: none;
+    }
 
 }
-@media all and (min-width: 992px) {
+@media all and (min-width: 992px){
+    .banner__content{
+        width: 45%;
+        margin: 0%;
+        padding: 0%;
+    } 
+    .banner__text{
+        width: 55%;
+        padding-top: 70px;
+        margin: 0%;
+        padding: 2%;
+    }
 
+    .about_us{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .about__text{
+        padding: 30px;
+        font-size: 1rem;
+    }
+    .about__img{
+        padding-top: 50px;
+        width: 100%;
+    }
+    
+    .circulo-1{
+        position: relative;
+        left: -15px;
+        top: -20px;
+    }
+    .circulo-2{
+        position: relative;
+        bottom:-2%;
+        left: 80%;    
+    }
+    .circulo-3{
+        display: none;
+    }
+    .circulo-4{
+        display: none;
+    }
+    .circulo-5{
+        display: none;
+    }
 }
