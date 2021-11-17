@@ -6,6 +6,7 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    height: 90vh;
 }
 .about__content{
     margin: 0%;
@@ -21,11 +22,12 @@
 
 .about__text{
     align-items: flex-end;
-    width: 50%;
-    margin-top: 50px;
+    width: 39%;
+    //margin-top: 50px;
     margin:auto;
-    padding: 50px;
-    font-size: 1.4rem;
+    //padding: 50px;
+    //font-size: 1.4rem;
+    font-size: 1em;
 }
 h2{
     color: rgb(73, 73, 73);
