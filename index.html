@@ -1,235 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon + Titulo -->
-    <title>MUJER SIGUE MIS PASOS</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    <!-- Linkeo bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Linkeo fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Link de font-awesome -->
-    <script src="https://kit.fontawesome.com/e6eec834c7.js" crossorigin="anonymous"></script>
-    <!-- Linkeo hoja estilo -->
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Open Graph -->
-    <meta property="og:site_name" content="CORPORACION MUJER SIGUE MIS PASOS">
-    <meta property="og:tittle" content="CORPORACION MUJER SIGUE MIS PASOS">
-    <meta property="og:author" content="Duhart & Paez Developing">
-    <meta property="og:type" content="website">
-    <!-- URL temporal -->
-    <!-- COMPLETAR URL -->
-    <meta property="og:url" content="--"> 
-    <meta property="og:description" content="Corporación Mujer Sigue Mis Pasos, 
-    es una organización de mujeres, víctimas de violencia sexual, defensoras de los derechos y la paz.">
-    <!-- FACEBOOK Y SMS -->
-    <meta property="og:tittle" content="CORPORACION MUJER SIGUE MIS PASOS">
-    <meta property="og:image:url" content="https://ibb.co/0JFQ6S8">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="C.M.S.M.P.">
-    <!-- TWITTER -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="Corporación Mujer Sigue Mis Pasos, 
-    mujeres defensoras de los derechos y la paz. ">
-    <meta name="twitter:title" content="CORPORACION MUJER SIGUE MIS PASOS">
-    <meta name="twitter:image:url" content="https://ibb.co/0JFQ6S8">
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="512">
-    <!-- WHATSAPP -->
-    <meta property="og:image:url" content="https://ibb.co/0JFQ6S8">
-    <meta property="og:image:type" content="website">
-    <meta property="og:image:width" content="256">
-    <meta property="og:image:height" content="256">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon + Titulo -->
+  <title>MUJER SIGUE MIS PASOS</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <!-- Linkeo bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Linkeo fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Link de font-awesome -->
+  <script src="https://kit.fontawesome.com/e6eec834c7.js" crossorigin="anonymous"></script>
+  <!-- Linkeo hoja estilo -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Open Graph -->
+  <meta property="og:author" content="Duhart & Paez Developing">
+  <meta property="og:type" content="website">
+  <!-- HTML Meta Tags -->
+  <meta name="description" content="Organización de mujeres víctimas de violencia, 
+defensoras de los derechos y promulgadoras de la paz.">
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="MUJER SIGUE MIS PASOS">
+  <meta itemprop="description" content="Organización de mujeres víctimas de 
+violencia, defensoras de los derechos y promulgadoras de la paz.
+">
+  <meta itemprop="image" content="https://i.ibb.co/2y1H00c/11667431-1625023344406355-4543596843920609414-n.jpg">
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://juancpaez91.github.io/ProyectoCMSMP">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MUJER SIGUE MIS PASOS">
+  <meta property="og:description" content="Organización de mujeres víctimas 
+de violencia, defensoras de los derechos y promulgadoras de la paz.
+">
+  <meta property="og:image" content="https://i.ibb.co/2y1H00c/11667431-1625023344406355-4543596843920609414-n.jpg">
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MUJER SIGUE MIS PASOS">
+  <meta name="twitter:description" content="Organización de mujeres víctimas de violencia, 
+defensoras de los derechos y promulgadoras de la paz.
+">
+  <meta name="twitter:image" content="https://i.ibb.co/2y1H00c/11667431-1625023344406355-4543596843920609414-n.jpg">
+  <!-- Whatsapp Meta Tags -->
+  <meta property="og:image:url" content="https://i.ibb.co/2y1H00c/11667431-1625023344406355-4543596843920609414-n.jpg8">
+  <meta property="og:image:type" content="website">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <!-- End Open Graph -->
 </head>
+
 <body class="fuente">
   <!-- Posicionamiento -->
-  <h1 style="display: none;">CORPORACION MUJER SIGUE MIS PASOS, organización de mujeres, 
+  <h1 style="display: none;">CORPORACION MUJER SIGUE MIS PASOS, organización de mujeres,
     víctimas de violencia sexual. Colombia</h1>
-<!-- Comienzo del header -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light shadow-lg p-3 mb-5 bg-body rounded fuente">
-            <div id="fluidNav" class="menu container-fluid ml-10">
-              <a class="navbar-brand" href="index.html">
-                <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg" alt="logo"> <strong>CMSMP</strong>
-              </a>
-              <div class="d-flex">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              </div>
-              <div class="collapse navbar-collapse r-flex" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="equipo.html">Nuestro equipo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contactanos</a>
-                  </li>
-                </ul>
-                <a href="donaciones.html">
-                <button class="btn btn-donation" type="">Doná</button></a>
-              </div>
-            </div>
-          </nav>
-      </header>
-<!-- Comienzo del main -->
-    <main>
-        <section class="banner">
-          <!-- <div class="row"> -->
-            <div class="banner__text">
-              <h1> ÚNETE A 
-                <br>
-                <strong> CORPORACION MUJER SIGUE MIS PASOS</strong> </h1>
-              <p>¡Somos defensoras de los Derechos, somos defensoras de las paz!</p>
-            </div>
-            <div class="banner__content">
-              <div class="circulo-1"></div>
-              <img class="img-pequenia" src="https://i.ibb.co/2y1H00c/11667431-1625023344406355-4543596843920609414-n.jpg" alt="">
-              <img class="banner__img" src="https://res.cloudinary.com/sapphiredev/image/upload/v1637150019/CMSMP/WhatsApp_Image_2021-11-17_at_08.49.32_nurjqu.jpg" alt="">
-              <div class="circulo-2"></div>
-            </div>
-          <!-- </div> -->
-        </section>
-        <section class="about_us">
-          <div class="about__content">
-              <div class="circulo-3"></div>
-              <div class="circulo-4"></div>
-              <img class="about__img" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635011331/CMSMP/Originales/WhatsApp_Image_2021-07-25_at_17.40.31_1_f0clrv.jpg" alt="">
-              <div class="circulo-5"></div>
-            </div>
-            <div class="about__text">
-              <h2 > <strong> Sobre nosotros </strong> </h2>
-              <br>
-              <p>La <strong>Corporacion Mujer Sigue mis Pasos-CMSMP</strong> es una organizacion de mujeres victimas de violencia sexual motivadas por el ejemplo de Angelica Bello quien decidio denunciar legal y públicamente la violacion de la que fue victima como "castigo" y amenaza para que abandonara su liderazgo a favor de los derechos de las victimas. Hace años, Angélica murio de forma violenta y quienes habiamos trabajado con ella decidimos seguir sus pasos, es decir, hablar públicamente de la violencia sexual contra nosotras para motivar a otras mujeres, que durante años han estado en silencio, sufriendo solas con miedo a denunciar y sin atencion en salud física y emocional
-              <br>
-              <br>
-              Nosotras decidimos acompañarnos para accedder a la justicia, buscar la reparacionde la <strong>Ley 1448</strong> y sobre todo para construir un camino que haga más fácil para las victimas de violencia sexual acceder a sus derechos, especialmente el derecho a la justicia que para nosotras va mas alla de la sancion de los responsables, debe convertirse en un procesos de restitución de derechos. Pr eso buiscamos que las instituciones reconozcan las necesidades de las muejeres, no las re-victmicen y tengan en cuenta sus propuestas.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section class="tazas" id="tazas">
-            <p> <strong> Nuestros Productos </strong> </p>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a nohref="">
-                      <img id="T001" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Valiente_wzivlj.jpg" alt="">
-                    </a>
-                    <a nohref="">
-                      <img id="T005" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Piensa-en-Ti_ystkf1.jpg" alt="">
-                    </a>
-                    <a nohref=""> 
-                      <img id="T002" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Transformacion_av4fz0.jpg" alt="">
-                    </a>
-                    <a nohref="">
-                      <img id="T004" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Somos-Asi_js5n6f.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a nohref="">
-                      <img id="T008" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Maravillosa_z2gwcp.jpg" alt="">
-                    </a>
-                    <a nohref="">
-                      <img id="T007" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Mujer-Divina_hdgqvr.jpg" alt="">
-                    </a>
-                    <a nohref="">
-                      <img id="T006" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Mujer_xj3r36.jpg" alt="">
-                    </a>
-                    <a nohref="">                  
-                      <img id="T011" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Corazones_phtfb5.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                      <a nohref="">
-                        <img id="T010" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Empoderamiento_rpw4ff.jpg" alt="">
-                      </a>
-                      <a nohref="">
-                        <img id="T003" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Sue%C3%B1a_b5wysq.jpg" alt="">
-                      </a>
-                      <a nohref=""> 
-                        <img id="T009" onclick="ObtenerTaza(this.id)" class="imagen-galery" src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Lo-Podemos-Lograr_p2qiix.jpg" alt="">
-                      </a>
-                  </div>
-                </div>
-                <button id="btnSliderA" class="btn-slider carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button id="btnSliderB" class="btn-slider carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span style="color:red;" class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-        <div class="container-fluid" id="contacto">
-          <div id="form_container">  
-            <form class="row contacto" action="">
-              <h3 class="col-4"> <strong> Contactanos </strong> </h3>
-              <div class="col-4 formulario" onmouseover="avisoDeshabilitado()">
-                <input type="text" class="" id="nombre" placeholder="Nombre">
-                <input onchange="verificar()" type="email" class="" id="emailForm" placeholder="E-mail">
-                <span id="emailinvalido" style="color:red"></span>
-                <input type="text" class=""  placeholder="Asunto" id="asunto">
-                <div>
-                  <textarea onkeydown="verificar()" id="mensajeForm" class="" rows="4"  placeholder="Mensaje"></textarea>
-                </div>
-                <button id="botonEnviar" class="btn-form btn-primary" type="button">Enviar</button>
-                <p id="botonDeshabilitado"></p>
-              </div>
-            </form>
-          </div>
-          <div id="form_success" >
-            <h1>¡Su mensaje ha sido enviado con éxito!</h1>
-            <h3>Nos pondremos en contacto contigo a la brevedad</h3>
-          <p id="firma" >Corporación Mujer Sigue Mis Pasos </p>
-          <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg" alt="logo">
+  <!-- Comienzo del header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-lg p-3 mb-5 bg-body rounded fuente">
+      <div id="fluidNav" class="menu container-fluid ml-10">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg"
+            alt="logo"> <strong>CMSMP</strong>
+        </a>
+        <div class="d-flex">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-          <div id="form_fail" >
-            <h1>Parece que hubo un problema...</h1>
-            <h3>Intenta enviando nuevamente el formulario</h3>
-            <button id="botonReload" onClick="RecargarForm()"> Recargar formulario</button>
-            <p id="firma" >Corporación Mujer Sigue Mis Pasos </p>
-          <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg" alt="logo">
+        <div class="collapse navbar-collapse r-flex" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipo.html">Nuestro equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contactanos</a>
+            </li>
+          </ul>
+          <a href="donaciones.html">
+            <button class="btn btn-donation" type="">Doná</button></a>
         </div>
-        </section>
-    </main>
-    <div id="up">
-      <a href="#fluidNav">
-        <i class="fas fa-arrow-up"></i>
-      </a>
+      </div>
+    </nav>
+  </header>
+  <!-- Comienzo del main -->
+  <main>
+    <section class="banner">
+      <!-- <div class="row"> -->
+      <div class="banner__text">
+        <h1> ÚNETE A
+          <br>
+          <strong> CORPORACION MUJER SIGUE MIS PASOS</strong>
+        </h1>
+        <p>¡Somos defensoras de los Derechos, somos defensoras de las paz!</p>
+      </div>
+      <div class="banner__content">
+        <div class="circulo-1"></div>
+        <img class="img-pequenia" src="https://i.ibb.co/2y1H00c/11667431-1625023344406355-4543596843920609414-n.jpg"
+          alt="">
+        <img class="banner__img"
+          src="https://res.cloudinary.com/sapphiredev/image/upload/v1637150019/CMSMP/WhatsApp_Image_2021-11-17_at_08.49.32_nurjqu.jpg"
+          alt="">
+        <div class="circulo-2"></div>
+      </div>
+      <!-- </div> -->
+    </section>
+    <section class="about_us">
+      <div class="about__content">
+        <div class="circulo-3"></div>
+        <div class="circulo-4"></div>
+        <img class="about__img"
+          src="https://res.cloudinary.com/sapphiredev/image/upload/v1635011331/CMSMP/Originales/WhatsApp_Image_2021-07-25_at_17.40.31_1_f0clrv.jpg"
+          alt="">
+        <div class="circulo-5"></div>
+      </div>
+      <div class="about__text">
+        <h2> <strong> Sobre nosotros </strong> </h2>
+        <br>
+        <p>La <strong>Corporacion Mujer Sigue mis Pasos-CMSMP</strong> es una organizacion de mujeres victimas de
+          violencia sexual motivadas por el ejemplo de Angelica Bello quien decidio denunciar legal y públicamente la
+          violacion de la que fue victima como "castigo" y amenaza para que abandonara su liderazgo a favor de los
+          derechos de las victimas. Hace años, Angélica murio de forma violenta y quienes habiamos trabajado con ella
+          decidimos seguir sus pasos, es decir, hablar públicamente de la violencia sexual contra nosotras para motivar
+          a otras mujeres, que durante años han estado en silencio, sufriendo solas con miedo a denunciar y sin atencion
+          en salud física y emocional
+          <br>
+          <br>
+          Nosotras decidimos acompañarnos para accedder a la justicia, buscar la reparacionde la <strong>Ley
+            1448</strong> y sobre todo para construir un camino que haga más fácil para las victimas de violencia sexual
+          acceder a sus derechos, especialmente el derecho a la justicia que para nosotras va mas alla de la sancion de
+          los responsables, debe convertirse en un procesos de restitución de derechos. Pr eso buiscamos que las
+          instituciones reconozcan las necesidades de las muejeres, no las re-victmicen y tengan en cuenta sus
+          propuestas.
+        </p>
+      </div>
+      </div>
+    </section>
+    <section class="tazas" id="tazas">
+      <p> <strong> Nuestros Productos </strong> </p>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a nohref="">
+              <img id="T001" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Valiente_wzivlj.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T005" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Piensa-en-Ti_ystkf1.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T002" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Transformacion_av4fz0.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T004" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Somos-Asi_js5n6f.jpg"
+                alt="">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a nohref="">
+              <img id="T008" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Maravillosa_z2gwcp.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T007" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Mujer-Divina_hdgqvr.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T006" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Mujer_xj3r36.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T011" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Corazones_phtfb5.jpg"
+                alt="">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a nohref="">
+              <img id="T010" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Empoderamiento_rpw4ff.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T003" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102991/CMSMP/tazas/Taza-Sue%C3%B1a_b5wysq.jpg"
+                alt="">
+            </a>
+            <a nohref="">
+              <img id="T009" onclick="ObtenerTaza(this.id)" class="imagen-galery"
+                src="https://res.cloudinary.com/sapphiredev/image/upload/v1635102990/CMSMP/tazas/Taza-Lo-Podemos-Lograr_p2qiix.jpg"
+                alt="">
+            </a>
+          </div>
+        </div>
+        <button id="btnSliderA" class="btn-slider carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id="btnSliderB" class="btn-slider carousel-control-next" type="button"
+          data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span style="color:red;" class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <div class="container-fluid" id="contacto">
+      <div id="form_container">
+        <form class="row contacto" action="">
+          <h3 class="col-4"> <strong> Contactanos </strong> </h3>
+          <div class="col-4 formulario" onmouseover="avisoDeshabilitado()">
+            <input type="text" class="" id="nombre" placeholder="Nombre">
+            <input onchange="verificar()" type="email" class="" id="emailForm" placeholder="E-mail">
+            <span id="emailinvalido" style="color:red"></span>
+            <input type="text" class="" placeholder="Asunto" id="asunto">
+            <div>
+              <textarea onkeydown="verificar()" id="mensajeForm" class="" rows="4" placeholder="Mensaje"></textarea>
+            </div>
+            <button id="botonEnviar" class="btn-form btn-primary" type="button">Enviar</button>
+            <p id="botonDeshabilitado"></p>
+          </div>
+        </form>
+      </div>
+      <div id="form_success">
+        <h1>¡Su mensaje ha sido enviado con éxito!</h1>
+        <h3>Nos pondremos en contacto contigo a la brevedad</h3>
+        <p id="firma">Corporación Mujer Sigue Mis Pasos </p>
+        <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg"
+          alt="logo">
+      </div>
+      <div id="form_fail">
+        <h1>Parece que hubo un problema...</h1>
+        <h3>Intenta enviando nuevamente el formulario</h3>
+        <button id="botonReload" onClick="RecargarForm()"> Recargar formulario</button>
+        <p id="firma">Corporación Mujer Sigue Mis Pasos </p>
+        <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg"
+          alt="logo">
+      </div>
+      </section>
+  </main>
+  <div id="up">
+    <a href="#fluidNav">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+  <footer id="footerID" class="container-fluid footer">
+    <div>
+      <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg"
+        alt="">
+      &copy; 2021 Corporación mujer Sigue Mis Pasos
     </div>
-    <footer id="footerID" class="container-fluid footer">
-        <div>
-          <img src="https://res.cloudinary.com/sapphiredev/image/upload/c_scale,h_50/v1635011552/CMSMP/logo_h7fr6k.jpg" alt="">
-          &copy; 2021 Corporación mujer Sigue Mis Pasos
-        </div>
-        <div > 
-          <a href="https://www.instagram.com/mujersiguemispasos"><i class="fab fa-instagram"></i></a>
-          <a href="https://web.facebook.com/cmujersiguemispasos/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
-          <a href="https://twitter.com/siguemujer"><i class="fab fa-twitter"></i></a>
-          <a href="https://cmujersiguemispasos.wordpress.com/"><i class="fab fa-wordpress-simple"></i></a>
-          <a href="coordinacioncmsmp@gmail.com"><i class="far fa-envelope"></i></a>
-          <a href="https://wa.me/00000000"><i class="fab fa-whatsapp"></i></a>
-        </div>
-    </footer>
-    <!-- Linkeo js -->
-    <script src="./js/tarjetaTaza.js"></script>
-    <script src="./js/formulario.js"></script>
-    <!-- Linkeo bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <div>
+      <a href="https://www.instagram.com/mujersiguemispasos"><i class="fab fa-instagram"></i></a>
+      <a href="https://web.facebook.com/cmujersiguemispasos/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/siguemujer"><i class="fab fa-twitter"></i></a>
+      <a href="https://cmujersiguemispasos.wordpress.com/"><i class="fab fa-wordpress-simple"></i></a>
+      <a href="coordinacioncmsmp@gmail.com"><i class="far fa-envelope"></i></a>
+      <a href="https://wa.me/00000000"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </footer>
+  <!-- Linkeo js -->
+  <script src="./js/tarjetaTaza.js"></script>
+  <script src="./js/formulario.js"></script>
+  <!-- Linkeo bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
