@@ -74,10 +74,6 @@ try {
     //$sendEmail->addAddress($email, $nombre);
     $sendEmail->addAddress($corporacion_email, $corporacion_nombre);
 
-    //Attachments
-    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
-
     //Content
     $sendEmail->isHTML(true);                                  //Set email format to HTML
     $sendEmail->Subject = $asunto_del_email;
